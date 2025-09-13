@@ -19,7 +19,7 @@ from regenAGRI import simulate_regen_agri as sra
 from openai import OpenAI
 
 # Initialize OpenAI client with your API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="###")
 
 # ---------------------------------------------------------------------
 # Enhanced AI-powered utilities with GPT-4o
