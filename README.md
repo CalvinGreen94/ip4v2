@@ -23,7 +23,26 @@
   - Flask-based REST API for system-wide alerting
 
 ---
+## 🤖 Example Use Case: Bunge Settlement Network Monitoring
+The **Bunge Digital Settlement Network** is monitored for **cyber-physical anomalies** and **supply chain threats** using IPqSEC:  
 
+- IDS flags unusual behaviors in **shipment or inventory flows**  
+  (e.g., an unexpected change from "pending settlement" → "completed" without validator approval).  
+- Nmap detects exposure of risky network ports across logistics nodes  
+  (23, 3389, 6667, 31337).  
+- PQC ensures that **all settlement and reconciliation logs** are signed and tamper-proof.  
+
+**Sample Log Entry:**
+```json
+{
+  "timestamp": "2025-08-05T12:34:56Z",
+  "participant": "Supplier Farm Alpha (Argentina)",
+  "transaction": "soybean_shipment",
+  "declared_weight": 120000,
+  "admitted_weight": 119800,
+  "intrusion_detected": true,
+  "reasons": ["Suspicious Port Access", "Unusual Settlement State Change"]
+}
 ## 🤖 Real-World Use Case: Robot Fleet Threat Monitoring
 
 A fleet of robots is monitored for cyber-physical anomalies using IPqSEC. Robots are assigned tasks like `welding`, `delivery`, or `charging`, while port scans are conducted using `nmap` to detect vulnerability exposure.
