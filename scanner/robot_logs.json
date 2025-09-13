@@ -1,0 +1,799 @@
+[
+    {
+        "timestamp": "2025-08-04T16:12:03.373874",
+        "ip": "192.168.1.157",
+        "task": "delivery",
+        "previous_task": "charging",
+        "ports_accessed": [
+            247,
+            124,
+            388,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.373874",
+        "ip": "192.168.1.157",
+        "current_task": "delivery",
+        "task_history": [],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.374881",
+        "ip": "192.168.1.157",
+        "task": "delivery",
+        "previous_task": "inspection",
+        "ports_accessed": [
+            711,
+            331,
+            219,
+            6667
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.374881",
+        "ip": "192.168.1.157",
+        "current_task": "delivery",
+        "task_history": [
+            "welding",
+            "delivery"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.374881",
+        "ip": "192.168.1.157",
+        "task": "maintenance",
+        "previous_task": "welding",
+        "ports_accessed": [
+            403,
+            952,
+            941,
+            31337
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.374881",
+        "ip": "192.168.1.157",
+        "current_task": "maintenance",
+        "task_history": [],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.374881",
+        "ip": "192.168.1.157",
+        "task": "charging",
+        "previous_task": "maintenance",
+        "ports_accessed": [
+            206,
+            220,
+            964,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.374881",
+        "ip": "192.168.1.157",
+        "current_task": "charging",
+        "task_history": [
+            "delivery",
+            "welding",
+            "charging"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.375880",
+        "ip": "192.168.1.157",
+        "task": "maintenance",
+        "previous_task": "charging",
+        "ports_accessed": [
+            918,
+            142,
+            325,
+            31337
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.375880",
+        "ip": "192.168.1.157",
+        "current_task": "maintenance",
+        "task_history": [
+            "inspection",
+            "idle",
+            "delivery",
+            "maintenance"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.690058",
+        "ip": "192.168.1.157",
+        "task": "maintenance",
+        "previous_task": "inspection",
+        "ports_accessed": [
+            52,
+            813,
+            992,
+            31337
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.690058",
+        "ip": "192.168.1.157",
+        "current_task": "maintenance",
+        "task_history": [
+            "welding",
+            "inspection",
+            "charging",
+            "maintenance"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.690058",
+        "ip": "192.168.1.157",
+        "task": "idle",
+        "previous_task": "maintenance",
+        "ports_accessed": [
+            812,
+            977,
+            564,
+            23
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.691028",
+        "ip": "192.168.1.157",
+        "current_task": "idle",
+        "task_history": [
+            "welding",
+            "charging",
+            "maintenance",
+            "idle"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.691028",
+        "ip": "192.168.1.157",
+        "task": "welding",
+        "previous_task": "inspection",
+        "ports_accessed": [
+            788,
+            479,
+            820,
+            6667
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.691028",
+        "ip": "192.168.1.157",
+        "current_task": "welding",
+        "task_history": [
+            "welding"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.691028",
+        "ip": "192.168.1.157",
+        "task": "idle",
+        "previous_task": "welding",
+        "ports_accessed": [
+            625,
+            822,
+            546,
+            31337
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.692028",
+        "ip": "192.168.1.157",
+        "current_task": "idle",
+        "task_history": [
+            "delivery",
+            "welding",
+            "idle"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.692028",
+        "ip": "192.168.1.157",
+        "task": "inspection",
+        "previous_task": "delivery",
+        "ports_accessed": [
+            420,
+            521,
+            310,
+            6667
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:03.692028",
+        "ip": "192.168.1.157",
+        "current_task": "inspection",
+        "task_history": [
+            "inspection",
+            "charging",
+            "inspection"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.008196",
+        "ip": "192.168.1.157",
+        "task": "inspection",
+        "previous_task": "charging",
+        "ports_accessed": [
+            779,
+            610,
+            291,
+            31337
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.008196",
+        "ip": "192.168.1.157",
+        "current_task": "inspection",
+        "task_history": [
+            "charging",
+            "inspection"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.009199",
+        "ip": "192.168.1.157",
+        "task": "idle",
+        "previous_task": "maintenance",
+        "ports_accessed": [
+            868,
+            782,
+            139,
+            23
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.009199",
+        "ip": "192.168.1.157",
+        "current_task": "idle",
+        "task_history": [
+            "maintenance",
+            "inspection",
+            "idle"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.009199",
+        "ip": "192.168.1.157",
+        "task": "welding",
+        "previous_task": "idle",
+        "ports_accessed": [
+            551,
+            486,
+            407,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.009199",
+        "ip": "192.168.1.157",
+        "current_task": "welding",
+        "task_history": [
+            "charging",
+            "delivery",
+            "welding"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.009199",
+        "ip": "192.168.1.157",
+        "task": "charging",
+        "previous_task": "welding",
+        "ports_accessed": [
+            679,
+            255,
+            1003,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.009199",
+        "ip": "192.168.1.157",
+        "current_task": "charging",
+        "task_history": [
+            "welding",
+            "charging"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.010198",
+        "ip": "192.168.1.157",
+        "task": "maintenance",
+        "previous_task": "charging",
+        "ports_accessed": [
+            31,
+            836,
+            786,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.010198",
+        "ip": "192.168.1.157",
+        "current_task": "maintenance",
+        "task_history": [
+            "maintenance",
+            "inspection",
+            "charging",
+            "maintenance"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.329433",
+        "ip": "192.168.1.157",
+        "task": "delivery",
+        "previous_task": "welding",
+        "ports_accessed": [
+            732,
+            345,
+            890,
+            6667
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.329433",
+        "ip": "192.168.1.157",
+        "current_task": "delivery",
+        "task_history": [],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.330432",
+        "ip": "192.168.1.157",
+        "task": "delivery",
+        "previous_task": "charging",
+        "ports_accessed": [
+            918,
+            651,
+            889,
+            6667
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.330432",
+        "ip": "192.168.1.157",
+        "current_task": "delivery",
+        "task_history": [
+            "delivery",
+            "maintenance",
+            "inspection",
+            "delivery"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.330432",
+        "ip": "192.168.1.157",
+        "task": "maintenance",
+        "previous_task": "idle",
+        "ports_accessed": [
+            921,
+            567,
+            389,
+            31337
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.330432",
+        "ip": "192.168.1.157",
+        "current_task": "maintenance",
+        "task_history": [],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.331432",
+        "ip": "192.168.1.157",
+        "task": "welding",
+        "previous_task": "delivery",
+        "ports_accessed": [
+            347,
+            210,
+            953,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.331432",
+        "ip": "192.168.1.157",
+        "current_task": "welding",
+        "task_history": [
+            "idle",
+            "welding"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.331432",
+        "ip": "192.168.1.157",
+        "task": "delivery",
+        "previous_task": "idle",
+        "ports_accessed": [
+            754,
+            239,
+            804,
+            23
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.331432",
+        "ip": "192.168.1.157",
+        "current_task": "delivery",
+        "task_history": [],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.641078",
+        "ip": "192.168.1.157",
+        "task": "welding",
+        "previous_task": "idle",
+        "ports_accessed": [
+            828,
+            382,
+            293,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.641078",
+        "ip": "192.168.1.157",
+        "current_task": "welding",
+        "task_history": [
+            "inspection",
+            "welding"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.641078",
+        "ip": "192.168.1.157",
+        "task": "inspection",
+        "previous_task": "welding",
+        "ports_accessed": [
+            789,
+            351,
+            183,
+            23
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.642077",
+        "ip": "192.168.1.157",
+        "current_task": "inspection",
+        "task_history": [
+            "welding",
+            "delivery",
+            "inspection"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.642077",
+        "ip": "192.168.1.157",
+        "task": "inspection",
+        "previous_task": "maintenance",
+        "ports_accessed": [
+            379,
+            175,
+            562,
+            6667
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.642077",
+        "ip": "192.168.1.157",
+        "current_task": "inspection",
+        "task_history": [
+            "delivery",
+            "inspection"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.642077",
+        "ip": "192.168.1.157",
+        "task": "delivery",
+        "previous_task": "maintenance",
+        "ports_accessed": [
+            101,
+            67,
+            309,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.642077",
+        "ip": "192.168.1.157",
+        "current_task": "delivery",
+        "task_history": [
+            "inspection",
+            "delivery"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.643077",
+        "ip": "192.168.1.157",
+        "task": "maintenance",
+        "previous_task": "charging",
+        "ports_accessed": [
+            164,
+            107,
+            465,
+            3389
+        ],
+        "intrusion_detected": true,
+        "reasons": [
+            "Unusual Task Switch",
+            "Suspicious Port Access"
+        ]
+    },
+    {
+        "timestamp": "2025-08-04T16:12:04.643077",
+        "ip": "192.168.1.157",
+        "current_task": "maintenance",
+        "task_history": [
+            "delivery",
+            "welding",
+            "maintenance"
+        ],
+        "ports_accessed": [
+            135,
+            139,
+            445,
+            3306
+        ]
+    }
+]
