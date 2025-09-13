@@ -109,4 +109,4 @@ def rpc_handler():
 
 if __name__ == '__main__':
     # For production, use proper HTTPS config, here is just example
-    app.run(host='192.168.1.157', port=443)
+    app.run(host='0.0.1.0', port=443)
